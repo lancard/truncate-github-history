@@ -1,3 +1,7 @@
+# bestway
+제일 좋은 것은 백업하고 지우고 다시 만드는 것.
+ 
+
 # truncate-github-history
 
 git clone https://github.com/lancard/$repository.git

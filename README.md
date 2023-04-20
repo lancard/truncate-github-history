@@ -2,7 +2,7 @@
 
 git clone https://github.com/lancard/$repository.git
 cd $repository
-git checkout --orphan temp HEAD
+git checkout --orphan temp $(LAST_COMMIT_HASH)
 git commit -m "Truncate history"
 git push origin temp
 cd ..
